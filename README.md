@@ -125,12 +125,13 @@
 
 ### Smoke Tests
 
-> **IMPORTANT:** Smoke tests should be run in the staging environment after this PR is merged to `main`.
+> [!IMPORTANT}
+> Smoke tests should be run in the staging environment after this PR is merged to `main`.
 
 <br>
 
 | [Smoke test case documentation](https://covermymeds.atlassian.net/wiki/spaces/USP/pages/2086141993/USP+Smoke+Testing+-+Lower+Environments) |
-| ------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
 
 - [ ] Smoke Tests Ran
 
