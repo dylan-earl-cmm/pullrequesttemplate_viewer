@@ -117,6 +117,7 @@
 ## Testing
 
 <details open><summary></summary>
+  
 ### Automated E2E Tests
 
 > Run all automated E2E tests locally before submitting this PR.
