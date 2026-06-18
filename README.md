@@ -80,6 +80,7 @@ Are new UI elements containing PHI masked for Datadog?
 
 ### Automated E2E Tests
 
+> [!IMPORTANT]
 > Run all automated E2E tests locally before submitting this PR.
 
 <kbd>[Detailed instructions](https://github.com/covermymeds/usp-springboard/wiki/Running-E2E-Tests-Locally)</kbd>
