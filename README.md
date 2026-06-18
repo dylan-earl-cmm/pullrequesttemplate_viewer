@@ -4,9 +4,7 @@
 
 
 
-
 > Link to related issues, jira ticket, and/or related PR's:
-
 
 
 
@@ -50,6 +48,8 @@ If this PR alters any of the workflows, please update the mermaid diagrams in th
 
 > Summary of the risks:
 
+
+
 ### PHI Risks
 
 - [ ] 🔴 High PHI Risk
@@ -58,6 +58,9 @@ If this PR alters any of the workflows, please update the mermaid diagrams in th
 - [ ] 🟢 Minimal PHI Risk
 
 > If so, what <b><i>risk</b></i> is brought on by this deployment, and what is the <b><i>mitigation plan</b></i>:
+
+
+
 
 Are new UI elements containing PHI masked for Datadog?
 
@@ -73,6 +76,8 @@ Are new UI elements containing PHI masked for Datadog?
 
 > If so, what <b><i>risk</b></i> is brought on by this deployment, and what is the <b><i>mitigation plan</b></i>:
 
+
+
 ### Special Considerations
 Does this change add functionality that requires special handling of test cases?
 
@@ -80,6 +85,8 @@ Does this change add functionality that requires special handling of test cases?
 - [ ] No
 
 > If so, how does the code handle that?
+
+
 
 ## Testing
 
@@ -107,9 +114,15 @@ Does this change add functionality that requires special handling of test cases?
 
 > How will you verify your change works without regression in production?
 
+
+
 > When will the code be deployed?
 
+
+
 > If any issues arise, how will we rollback?
+
+
 
 ## Additional Approvals
 
