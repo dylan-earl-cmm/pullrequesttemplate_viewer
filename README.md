@@ -57,7 +57,7 @@ If this PR alters any of the workflows, please update the mermaid diagrams in th
 - [ ] 🟡 Low PHI Risk
 - [ ] 🟢 Minimal PHI Risk
 
-> If so, what <b><i>risk</b></i> is brought on by this deployment, and what is the <b><i>mitigation plan</b></i>:
+> What <b><i>risk</b></i> is brought on by this deployment, and what is the <b><i>mitigation plan</b></i>:
 
 
 
@@ -74,7 +74,7 @@ Are new UI elements containing PHI masked for Datadog?
 - [ ] 🟡 Low Security Risk
 - [ ] 🟢 No Security Risk
 
-> If so, what <b><i>risk</b></i> is brought on by this deployment, and what is the <b><i>mitigation plan</b></i>:
+> What <b><i>risk</b></i> is brought on by this deployment, and what is the <b><i>mitigation plan</b></i>:
 
 
 
