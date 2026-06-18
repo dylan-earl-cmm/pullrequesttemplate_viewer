@@ -18,11 +18,11 @@
 - [ ] Yes
 - [ ] No
 
-<details closed>
+<details>
   <summary>If so, how have you added that documentation?</summary>
   
 - [ ] README
-- [ ] How-[Tos](https://covermymeds.atlassian.net/wiki/spaces/SPEC/pages/507130406/How+Tos)
+- [ ] How-Tos <kbd>[link](https://covermymeds.atlassian.net/wiki/spaces/SPEC/pages/507130406/How+Tos)<kbd>
 - [ ] LucidChart Links
 - [ ] Other
 
@@ -44,10 +44,10 @@
 
 > Overall risk level:
 
-- [ ] High
-- [ ] Medium
-- [ ] Low
-- [ ] Minimal
+- [ ] 🔴 High
+- [ ] 🟠 Medium
+- [ ] 🟡 Low
+- [ ] 🟢 Minimal
 
 > Summary of the risk:
 
@@ -55,14 +55,12 @@
 
 > Are there any PHI ramifications of this PR?
 
-- [ ] High
-- [ ] Medium
-- [ ] Low
-- [ ] Minimal
+- [ ] 🔴 High PHI Risk
+- [ ] 🟠 Medium PHI Risk
+- [ ] 🟡 Low PHI Risk
+- [ ] 🟢 Minimal PHI Risk
 
-> If so, point out mitigation:
-
-> If so, what describe what risk is brought on by this deployment:
+> If so, point out mitigation and what risk is brought on by this deployment:
 
 ##### Observability Safety
 
@@ -73,14 +71,12 @@
 
 > Are there any security risks?
 
-- [ ] High Risk
-- [ ] Medium Risk
-- [ ] Low Risk
-- [ ] No Risk
+- [ ] 🔴 High Security Risk
+- [ ] 🟠 Medium Security Risk
+- [ ] 🟡 Low Security Risk
+- [ ] 🟢 No Security Risk
 
-> If so, point out mitigation:
-
-> If so, describe what risk is brought on by this deployment:
+> If so, point out mitigations and what risk is brought on by this deployment:
 
 ### Special Considerations
 
@@ -95,8 +91,7 @@
 
 > If needed, gather the appropriate approvals
 
-| [Approval guidelines](https://covermymeds.atlassian.net/wiki/spaces/USP/pages/1830617182/UX+and+Product+Sign-off+Guidelines) |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+<kbd>[Approval guidelines](https://covermymeds.atlassian.net/wiki/spaces/USP/pages/1830617182/UX+and+Product+Sign-off+Guidelines)</kbd>
 
 - [ ] Product
 - [ ] UX
@@ -107,45 +102,35 @@
 ### Automated E2E Tests
 
 > Run all automated E2E tests locally before submitting this PR.
->
-> 1. Start the E2E stack: `just e2e-stack start`
-> 2. Run the test suite: `just test e2e`
+
+<kbd>[Detailed instructions](https://github.com/covermymeds/usp-springboard/wiki/Running-E2E-Tests-Locally)</kbd>
 
 - [ ] All existing automated E2E tests pass locally
 
-| [Detailed instructions](https://github.com/covermymeds/usp-springboard/wiki/Running-E2E-Tests-Locally) |
-| ------------------------------------------------------------------------------------------------------ |
-
 ### Playwright Workflows
 
-> If Playwright workflows were modified or new workflows were added, update the corresponding [documentation](https://covermymeds.atlassian.net/wiki/spaces/USP/pages/3602874409/USP+Springboard+Automated+E2E+Test+Workflows)
+> If Playwright workflows were modified or new workflows were added, update the corresponding <kbd>[documentation](https://covermymeds.atlassian.net/wiki/spaces/USP/pages/3602874409/USP+Springboard+Automated+E2E+Test+Workflows)<kbd>
 
 - [ ] Modified, Updated Documentation
 - [ ] Not Modified
 
 ### Smoke Tests
 
-> [!IMPORTANT}
+> [!IMPORTANT]
 > Smoke tests should be run in the staging environment after this PR is merged to `main`.
 
-<br>
-
-| [Smoke test case documentation](https://covermymeds.atlassian.net/wiki/spaces/USP/pages/2086141993/USP+Smoke+Testing+-+Lower+Environments) |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+<kbd>[Smoke test case documentation](https://covermymeds.atlassian.net/wiki/spaces/USP/pages/2086141993/USP+Smoke+Testing+-+Lower+Environments)<kbd>
 
 - [ ] Smoke Tests Ran
 
-## Post Deploy Testing Plan
+## Deployment, Post Deployment, and Rollbacks
 
 > How will you verify your change works without regression in production?
 
-## Deployment
-
 > When will the code be deployed?
 
-## Rollback Plan
-
 > If any issues arise, how will we rollback?
+
 
 ## Manager Checklist
 
@@ -160,3 +145,7 @@
 - [ ] PR creator has filled out the ITGC testing comment to include appropriate testing evidence
 - [ ] Rollback plan is in place
 - [ ] Confirm that the change is desired to go to production
+
+```
+
+```
