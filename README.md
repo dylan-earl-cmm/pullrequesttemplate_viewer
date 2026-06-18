@@ -30,13 +30,12 @@ Have you done something here that, if documented, would be beneficial to the tea
 
 If this PR alters any of the workflows, please update the mermaid diagrams in the docs folder
 
-- [ ] Alters Workflow
-- [ ] Updated mermaid diagrams
+- [ ] Alters Workflow and updated mermaid diagrams
 - [ ] N/A
 
 ## Risks
 
-<b>Overall risk level:<b>
+<b>Overall Risk</b> level:
 
 - [ ] 🔴 High
 - [ ] 🟠 Medium
@@ -45,28 +44,28 @@ If this PR alters any of the workflows, please update the mermaid diagrams in th
 
 > Summary of the risk:
 
-<b>Are there any PHI ramifications of this PR?<b>
+Are there any <b>PHI Risks</b> with this PR?
 
 - [ ] 🔴 High PHI Risk
 - [ ] 🟠 Medium PHI Risk
 - [ ] 🟡 Low PHI Risk
 - [ ] 🟢 Minimal PHI Risk
 
-> If so, what <b>risk<b> is brought on by this deployment, and what is the <b>mitigation plan<b>:
+> If so, what <b>risk</b> is brought on by this deployment, and what is the <b>mitigation plan</b>:
 
 Are new UI elements containing PHI masked for Datadog?
 
 - [ ] Yes
 - [ ] N/A
 
-<b>Are there any security risks?<b>
+<b>Are there any security risks?</b>
 
 - [ ] 🔴 High Security Risk
 - [ ] 🟠 Medium Security Risk
 - [ ] 🟡 Low Security Risk
 - [ ] 🟢 No Security Risk
 
-> If so, what <b>risk<b> is brought on by this deployment, and what is the <b>mitigation plan<b>:
+> If so, what <b>risk</b> is brought on by this deployment, and what is the <b>mitigation plan</b>:
 
 ### Special Considerations
 
