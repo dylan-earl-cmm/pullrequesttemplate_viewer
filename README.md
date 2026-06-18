@@ -13,7 +13,7 @@
 
 #### Documentation
 
-> Have you done something here that, if documented, would be beneficial to the team?
+Have you done something here that, if documented, would be beneficial to the team?
 
 - [ ] Yes
 - [ ] No
@@ -32,7 +32,7 @@
 
 #### Architecture Diagrams
 
-> If this PR alters any of the workflows, please update the mermaid diagrams in the docs folder
+If this PR alters any of the workflows, please update the mermaid diagrams in the docs folder
 
 - [ ] Alters Workflow
 - [ ] Updated mermaid diagrams
@@ -42,7 +42,7 @@
 
 ### Overall risk level
 
-> Overall risk level:
+<b>Overall risk level:<b>
 
 - [ ] 🔴 High
 - [ ] 🟠 Medium
@@ -53,7 +53,7 @@
 
 ### PHI Risk
 
-> Are there any PHI ramifications of this PR?
+<b>Are there any PHI ramifications of this PR?<b>
 
 - [ ] 🔴 High PHI Risk
 - [ ] 🟠 Medium PHI Risk
@@ -62,14 +62,14 @@
 
 > If so, point out mitigation and what risk is brought on by this deployment:
 
-##### Observability Safety
+Are new UI elements containing PHI masked for Datadog?
 
-- [ ] New UI elements containing PHI have been explicitly masked for Datadog consumption
+- [ ] Yes
 - [ ] N/A
 
 ### Security Risk
 
-> Are there any security risks?
+<b>Are there any security risks?<b>
 
 - [ ] 🔴 High Security Risk
 - [ ] 🟠 Medium Security Risk
@@ -130,7 +130,6 @@
 > When will the code be deployed?
 
 > If any issues arise, how will we rollback?
-
 
 ## Manager Checklist
 
